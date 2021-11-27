@@ -9,10 +9,14 @@ h2{
 }
 
 img{
-    width: 400px;        
-    min-width: 280px;
+    width: 100px;        
+    min-width: 200px;
 }
 .flex-box-rps img:hover{
 box-shadow: 0px 10px 50px rgb(137, 209, 137);
 }
 
+#button{
+    color: rgb(5, 55, 102);
+    background-color: rgb(33, 151, 17);
+}
