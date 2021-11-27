@@ -1,7 +1,6 @@
 function rpsGame(yourChoice) {
-  console.log(yourChoice);
   var humanChoice, botChoice;
-  humanChoice = yourChoice;
+  humanChoice = yourChoice.id;
 
   botChoice = numberToChoice(randToRpsInt());
   console.log("computerChoice", botChoice);
@@ -15,6 +14,7 @@ function rpsGame(yourChoice) {
 }
 function randToRpsInt() {
   const randToRpsInt = Math.floor(Math.random() * 3);
+  return randToRpsInt;
 }
 console.log(randToRpsInt);
 
